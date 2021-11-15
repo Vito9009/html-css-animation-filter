@@ -99,7 +99,19 @@
 }
 
 @keyframes rotation{
-  100% {
+  0% {
     transform: rotate(360deg);
+  }
+}
+
+/* ESERCIZIO 11*/
+
+.ex-11-icon:hover{
+    animation: round-trip 3s normal linear infinite;
+}
+
+@keyframes round-trip{
+  90% {
+    transform: rotate(270deg);
   }
 }
