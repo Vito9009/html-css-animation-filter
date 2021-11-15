@@ -115,3 +115,41 @@
     transform: rotate(270deg);
   }
 }
+
+/* ESERCIZIO 12*/
+
+.ex-12-top-white{
+    animation: shift-top 5s linear infinite;
+}
+
+@keyframes shift-top{
+  0% {
+    left: 0;
+  }
+
+  50% {
+    left:calc(100% - 60px);
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+.ex-12-bottom-white{
+    animation: shift-bottom 5s linear infinite;
+}
+
+@keyframes shift-bottom{
+  0% {
+    right: 0;
+  }
+
+  50% {
+    right: calc(100% - 60px);
+  }
+
+  100% {
+    right: 0;
+  }
+}
