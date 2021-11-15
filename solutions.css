@@ -58,3 +58,14 @@
 .ex-6-img:hover{
     filter: grayscale(1);
 }
+
+/* ESERCIZIO 7*/
+
+.ex-7-img{
+    transition: 3s;
+}
+
+.ex-7-img:hover{
+    filter: contrast(150%) sepia(80%);
+
+}
